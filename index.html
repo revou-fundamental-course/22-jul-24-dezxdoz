@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Mini project</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -12,16 +13,16 @@
             <div class="logo-icon"></div>
         </header>
 
-        <sectionn class="nav-container">
-            <a class="nav-border">Home</a>
-            <a class="nav-border">Our Packages</a>
-            <a class="nav-border">Call Us</a>
-            <a class="nav-border">About</a>
+        <section class="nav-container">
+            <a class="nav-border" href="#home">Home</a>
+            <a class="nav-border" href="#ourpackage">Our Packages</a>
+            <a class="nav-border" href="#call">Call Us</a>
+            <a class="nav-border" href="#about">About</a>
         </section>
     </nav>
    
     <main>
-        <article class="main-title">
+        <article class="main-title" id="home">
             <header>
                 <h1>Your Trusted Travel Agent's</h1>
             </header>
@@ -43,7 +44,7 @@
                 </div>
             </article>
 
-            <main class="form-content-item">
+            <article class="form-content-item" id="call">
                 <div class="div-form">
                     <h3>Contact Us</h3>
                     <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
@@ -58,7 +59,7 @@
                         </div>
                         <div class="form-action">
                       <label for="select">What are you interestested in?</label><br>
-                      <select id="select" name="select" placeholder="Select Option">
+                      <select id="select">
                         <option value="select">select option</option>
                         <option value="yes">Yes, of course</option>
                         <option value="no">No, thanks</option>
@@ -68,17 +69,15 @@
                       <input type="submit" value="SEND">
                     </form>
                 </div>
-            </main>
+            </article>
         </section>
-    </main>
-
-    <main>
+        
         <div class="main-circle">
             <div class="circle"></div>
         </div>
 
         <section>
-            <header class="div-rectangle">
+            <header class="div-rectangle" id="about">
                 <h2>About</h2>
             </header>
                 <div class="main-title-article">
@@ -90,7 +89,7 @@
                 relaksasi di pantai, atau eksplorasi budaya yang kaya.</p>
                 </div>
         </section>
-        <section class="main-title">
+        <section class="main-title" id="ourpackage">
             <h2>Our Package</h2>
         </section>
 
@@ -117,20 +116,20 @@
             <div class="main-pack">
                 <div class="item-icon-pack"></div>
                 <div class="main-title-item">
-                    <h4 class="main-title-text">Bali</h4>
-                    <p class="main-title-text"><i>Travel dan wisata di Bali</i></p>
+                    <h4 class="main-title-text">Makassar</h4>
+                    <p class="main-title-text"><i>Travel dan wisata di Makassar</i></p>
                 </div>
 
                 <div class="item-icon-pack"></div>
                 <div class="main-title-item">
-                    <h4 class="main-title-text">Jambi</h4>
-                    <p class="main-title-text"><i>Travel dan wisata di Jambi</i></p>
+                    <h4 class="main-title-text">Palembang</h4>
+                    <p class="main-title-text"><i>Travel dan wisata di Palembang</i></p>
                 </div>
 
                 <div class="item-icon-pack"></div>
                 <div class="main-title-item">
-                    <h4 class="main-title-text">Maluku</h4>
-                    <p class="main-title-text"><i>Travel dan wisata di Maluku</i></p>
+                    <h4 class="main-title-text">Jakarta</h4>
+                    <p class="main-title-text"><i>Travel dan wisata di Jakarta</i></p>
                 </div>
             </div>
         </article>
